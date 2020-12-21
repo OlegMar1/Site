@@ -1,0 +1,744 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="css/sidebar&header.css"> -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/head.css">
+  <link rel="stylesheet" href="css/left_sidebar.css">
+  <link rel="stylesheet" href="css/right_sidebar.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+
+  <title>Muslim Mahin</title>
+</head>
+
+<body>
+  <!-- LEFT SIDEBAR -->
+
+  <div id="sidebar">
+
+    <div class="item_first">
+      <div class="over_item" onclick="openPoints(event)">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/dashboard.svg">
+          </div>
+          <div class="text">
+            Dashboard
+          </div>
+        </div>
+        <div class="arrow">
+          <embed type="image/svg+xml" src="assets/img/arrow.svg">
+        </div>
+      </div>
+
+      <div class="under_item">
+        <div class="subitem"></div>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="over_item" onclick="openPoints(event)">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/apps.svg">
+          </div>
+          <div class="text">
+            Apps
+          </div>
+        </div>
+        <div class="arrow">
+          <embed type="image/svg+xml" src="assets/img/arrow.svg">
+        </div>
+      </div>
+
+      <div class="under_item">
+        <div class="subitem">Mailbox</div>
+        <div class="subitem">Search</div>
+        <div class="subitem">To do List</div>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="over_item" onclick="openPoints(event)">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/components.svg">
+          </div>
+          <div class="text">
+            Components
+          </div>
+        </div>
+        <div class="arrow">
+          <embed type="image/svg+xml" src="assets/img/arrow.svg">
+        </div>
+      </div>
+
+      <div class="under_item">
+        <div class="subitem"></div>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="over_item" onclick="openPoints(event)">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/layout.svg">
+          </div>
+          <div class="text">
+            Layout
+          </div>
+        </div>
+        <div class="arrow">
+          <embed type="image/svg+xml" src="assets/img/arrow.svg">
+        </div>
+      </div>
+
+      <div class="under_item">
+        <div class="subitem"></div>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="over_item" onclick="openPoints(event)">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/forms.svg">
+          </div>
+          <div class="text">
+            Forms
+          </div>
+        </div>
+        <div class="arrow">
+          <embed type="image/svg+xml" src="assets/img/arrow.svg">
+        </div>
+      </div>
+
+      <div class="under_item">
+        <div class="subitem"></div>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="over_item">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/charts.svg">
+          </div>
+          <div class="text">
+            Charts
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="over_item" onclick="openPoints(event)">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/tables.svg">
+          </div>
+          <div class="text">
+            Tables
+          </div>
+        </div>
+        <div class="arrow">
+          <embed type="image/svg+xml" src="assets/img/arrow.svg">
+        </div>
+      </div>
+
+      <div class="under_item">
+        <div class="subitem"></div>
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="over_item">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/calendar.svg">
+          </div>
+          <div class="text">
+            Calendar
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="item_last">
+
+      <div class="over_item" onclick="openPoints(event)">
+        <div class="name">
+          <div class="image">
+            <embed type="image/svg+xml" src="assets/img/maps.svg">
+          </div>
+          <div class="text">
+            Maps
+          </div>
+        </div>
+        <div class="arrow">
+          <embed type="image/svg+xml" src="assets/img/arrow.svg">
+        </div>
+      </div>
+
+      <div class="under_item">
+        <div class="subitem"></div>
+      </div>
+
+    </div>
+
+
+
+    <div class="support">
+      <div class="name">
+        <div class="image">
+          <embed type="image/svg+xml" src="assets/img/support.svg">
+        </div>
+        <div class="text">
+          Help & Support
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- HEADER -->
+  <div id="head">
+
+    <div class="intro_search">
+      <div class="intro">
+        <div class="name">
+          Muslim Mahin
+        </div>
+        <div class="toggle-btn" onclick="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="search">
+        <input type="text" id="text" placeholder="Search">
+        <button class="button">
+          <embed type="image/svg+xml" src="assets/img/search.svg">
+        </button>
+      </div>
+    </div>
+
+    <div class="information">
+      <div class="photo">
+        <embed type="image/svg+xml" src="assets/img/admin.svg">
+      </div>
+      <div class="name">
+        <div class="name">
+          Muslim Mahin
+        </div>
+        <div class="status">
+          Administrator
+        </div>
+      </div>
+      <div class="alarm">
+        <!-- <i class="bell outline icon">
+          <div class="circle">5</div>
+        </i> -->
+        <embed type="image/svg+xml" src="assets/img/bell.svg">
+
+      </div>
+
+      <div class="settings_block">
+        <embed type="image/svg+xml" src="assets/img/setting.svg">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- CONTENT -->
+
+  <div id="main">
+    <div class="content">
+
+      <div class="summary">
+
+        <div class="user_status">
+          <div class="title">
+            USER STATUS
+          </div>
+          <div class="data">
+            <div class="number">
+              5,100
+            </div>
+            <div class="time">
+              This Week
+            </div>
+          </div>
+          <div class="rectangle">
+            <div class="rectangle_white">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="sales">
+          <div class="title">
+            SALES
+          </div>
+          <div class="data">
+            <div class="number">
+              9,180
+            </div>
+            <div class="time">
+              This Month
+            </div>
+          </div>
+          <div class="rectangle">
+            <div class="rectangle_white">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="page_views">
+          <div class="title">
+            PAGE VIEWS
+          </div>
+          <div class="data">
+            <div class="number">
+              91,230
+            </div>
+            <div class="time">
+              This Month
+            </div>
+          </div>
+          <div class="rectangle">
+            <div class="rectangle_white">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="graph_block">
+
+        <div class="visitors">
+          <div class="title">
+            VISITORS
+          </div>
+          <div class="graph">
+            <canvas id="popChart"></canvas>
+          </div>
+
+        </div>
+
+        <div class="events_weather">
+          <div class="events">
+            <div class="title">
+              EVENTS
+            </div>
+            <div class="item">
+              <div class="text">
+                be reviews meetup
+              </div>
+              <div class="number_1">
+                29
+              </div>
+            </div>
+            <div class="item">
+              <div class="text">
+                Google Meetup
+              </div>
+              <div class="number_2">
+                25
+              </div>
+            </div>
+            <div class="item_last">
+              <div class="text">
+                No More Event Shedule
+              </div>
+            </div>
+          </div>
+          <div class="weather">
+            <div class="icon">
+              <!-- <i class="cloud icon"></i> -->
+              <embed type="image/svg+xml" src="assets/img/weather.svg">
+            </div>
+            <div class="day">
+              Sunday
+            </div>
+            <div class="date">
+              September 02
+            </div>
+            <div class="temperature">
+              75 &degF
+            </div>
+            <div class="city">
+              Dhaka, Bangladesh
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="top_stores_order_stats">
+
+        <div class="ui grid">
+        <div class="eight wide column" id="trarara">
+          <div class="top_stores">
+
+
+            <div class="title">
+              <div class="text">
+                TOP 10 STORES
+              </div>
+              <div class="btn">
+                All Stores
+              </div>
+            </div>
+
+            <div class="subtitle">
+              Best Seller Per Month
+            </div>
+
+            <div class="item">
+              <div class="number">
+                1.
+              </div>
+              <div class="block">
+                <div class="text">
+                  <div class="name">
+                    Iphone 6
+                  </div>
+                  <div class="count">
+                    195
+                  </div>
+                </div>
+                <div class="line">
+                  <div class="subline_1">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="item">
+              <div class="number">
+                1.
+              </div>
+              <div class="block">
+                <div class="text">
+                  <div class="name">
+                    Iphone 5
+                  </div>
+                  <div class="count">
+                    355
+                  </div>
+                </div>
+                <div class="line">
+                  <div class="subline_2">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="item">
+              <div class="number">
+                1.
+              </div>
+              <div class="block">
+                <div class="text">
+                  <div class="name">
+                    Iphone 7
+                  </div>
+                  <div class="count">
+                    105
+                  </div>
+                </div>
+                <div class="line">
+                  <div class="subline_3">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="eight wide column" id="trarara">
+          <div class="order_stats">
+            <div class="title">
+              ORDER STATS
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+      <div class="comments">
+        <div class="title">
+          RECENT COMMENTS
+        </div>
+        <div class="firt_comment">
+          <div class="item">
+            <div class="photo">
+              <embed type="image/svg+xml" src="assets/img/human-9.svg">
+            </div>
+            <div class="text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis
+            </div>
+          </div>
+          <div class="subitem">
+            <div class="status">
+              Approved
+            </div>
+            <div class="date">
+              August 14, 2016
+            </div>
+          </div>
+        </div>
+        <div class="last_comment">
+          <div class="item">
+            <div class="photo">
+              <embed type="image/svg+xml" src="assets/img/human-10.svg">
+            </div>
+            <div class="text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis
+            </div>
+          </div>
+          <div class="subitem">
+            <div class="status">
+              Approved
+            </div>
+            <div class="date">
+              August 14, 2016
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="end">
+        All Right Reserved 2016 © MuslimMahin
+      </div>
+
+    </div>
+
+
+
+    <!-- RIGHT SIDEBAR -->
+    <div class="right_sidebar">
+
+      <!-- NEW MASSAGE -->
+      <div class="new_massage">
+
+        <div class="title">
+          NEW MASSAGE
+        </div>
+
+        <div class="people">
+          <div class="photo">
+            <embed type="image/svg+xml" src="assets/img/human-1.svg">
+          </div>
+          <div class="information">
+            <div class="name">
+              John Partel
+            </div>
+            <div class="status">
+              2 hours ago
+            </div>
+          </div>
+        </div>
+
+        <div class="people">
+          <div class="photo">
+            <embed type="image/svg+xml" src="assets/img/human-2.svg">
+          </div>
+          <div class="information">
+            <div class="name">
+              John Partel
+            </div>
+            <div class="status">
+              2 hours ago
+            </div>
+          </div>
+        </div>
+
+        <div class="people">
+          <div class="photo">
+            <embed type="image/svg+xml" src="assets/img/human-3.svg">
+          </div>
+          <div class="information">
+            <div class="name">
+              John Partel
+            </div>
+            <div class="status">
+              2 hours ago
+            </div>
+          </div>
+        </div>
+
+        <div class="people">
+          <div class="photo">
+            <embed type="image/svg+xml" src="assets/img/human-4.svg">
+          </div>
+          <div class="information">
+            <div class="name">
+              John Partel
+            </div>
+            <div class="status">
+              2 hours ago
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- CHAT LINE -->
+      <div class="chat_line">
+
+        <div class="title">
+          CHAT LINE
+        </div>
+
+
+        <div class="user">
+          <div class="people">
+            <div class="photo">
+              <embed type="image/svg+xml" src="assets/img/human-5.svg">
+            </div>
+            <div class="information">
+              <div class="name">
+                John Partel
+              </div>
+              <div class="status">
+                Call Me Later..?
+              </div>
+            </div>
+          </div>
+          <div class="circle"></div>
+        </div>
+
+
+        <div class="user">
+          <div class="people">
+            <div class="photo">
+              <embed type="image/svg+xml" src="assets/img/human-6.svg">
+            </div>
+            <div class="information">
+              <div class="name">
+                John Partel
+              </div>
+              <div class="status">
+                Hello! bro...
+              </div>
+            </div>
+          </div>
+          <div class="circle"></div>
+        </div>
+
+
+        <div class="user">
+          <div class="people">
+            <div class="photo">
+              <embed type="image/svg+xml" src="assets/img/human-7.svg">
+            </div>
+            <div class="information">
+              <div class="name">
+                John Partel
+              </div>
+              <div class="status">
+                Can you help me?
+              </div>
+            </div>
+          </div>
+          <div class="circle"></div>
+        </div>
+
+
+        <div class="user">
+          <div class="people">
+            <div class="photo">
+              <embed type="image/svg+xml" src="assets/img/human-8.svg">
+            </div>
+            <div class="information">
+              <div class="name">
+                John Partel
+              </div>
+              <div class="status">
+                What..?
+              </div>
+            </div>
+          </div>
+          <div class="circle"></div>
+        </div>
+
+
+        <div class="user">
+          <div class="people">
+            <div class="photo">
+              <embed type="image/svg+xml" src="assets/img/human-8.svg">
+            </div>
+            <div class="information">
+              <div class="name">
+                John Partel
+              </div>
+              <div class="status">
+                Pari na tao kori..?
+              </div>
+            </div>
+          </div>
+          <div class="circle"></div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="js/buttons.js"></script>
+<script src="js/graph.js"></script>
+
+
+
+
+</html>

@@ -1,0 +1,236 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 290px;
+  min-height: 100%;
+  height: 100%;
+  background: #414042;
+  top: 80;
+  z-index: 20;
+  left: -290px;
+  top: 80px;
+  overflow: auto;
+  transition: 300ms;
+}
+
+#sidebar .item .over_item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+#sidebar .item .over_item .name {
+  display: flex;
+  margin-left: 30px;
+}
+
+#sidebar .item .over_item .name .image {
+  display: flex;
+  align-items: center;
+}
+
+#sidebar .item .over_item .name .text {
+  margin-left: 20px;
+}
+
+#sidebar .item .over_item .arrow {
+  margin-right: 30px;
+  font-size: 20;
+  font-stretch: condensed;
+  transition: 300ms;
+}
+
+#sidebar .item .over_item:hover {
+  background: #188ae2;
+}
+
+#sidebar .item .over_item.activated .arrow {
+  transform: rotate(90deg);
+}
+
+#sidebar .item .under_item {
+  max-height: 0;
+  overflow: hidden;
+}
+
+#sidebar .item .under_item .subitem {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 100px;
+  transition: 100ms;
+}
+
+#sidebar .item .under_item .subitem:hover {
+  background: #188ae2;
+}
+
+#sidebar .item_first .over_item {
+  margin-top: 18px;
+  background: #188ae2;
+}
+
+#sidebar .item_first .over_item:hover {
+  background: #188ae2;
+}
+
+#sidebar .item_first .over_item.activated .arrow {
+  transform: rotate(90deg);
+}
+
+#sidebar .item_first .under_item {
+  max-height: 0;
+  overflow: hidden;
+}
+
+#sidebar .item_first .under_item .subitem {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 100px;
+  transition: 100ms;
+}
+
+#sidebar .item_first .under_item .subitem:hover {
+  background: #188ae2;
+}
+
+#sidebar .item_last .over_item:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #313131;
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+#sidebar .item_last .over_item:hover {
+  background: #188ae2;
+}
+
+#sidebar .item_last .over_item.activated .arrow {
+  transform: rotate(90deg);
+}
+
+#sidebar .item_last .under_item {
+  max-height: 0;
+  overflow: hidden;
+}
+
+#sidebar .item_last .under_item .subitem {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 100px;
+  transition: 100ms;
+}
+
+#sidebar .item_last .under_item .subitem:hover {
+  background: #188ae2;
+}
+
+#sidebar .support {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+#sidebar .support:hover {
+  background: #188ae2;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+.item_first .over_item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.item_first .over_item .name {
+  display: flex;
+  margin-left: 30px;
+}
+
+.item_first .over_item .name .image {
+  display: flex;
+  align-items: center;
+}
+
+.item_first .over_item .name .text {
+  margin-left: 20px;
+}
+
+.item_first .over_item .arrow {
+  margin-right: 30px;
+  font-size: 20;
+  font-stretch: condensed;
+  transition: 300ms;
+}
+
+.item_last .over_item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.item_last .over_item .name {
+  display: flex;
+  margin-left: 30px;
+}
+
+.item_last .over_item .name .image {
+  display: flex;
+  align-items: center;
+}
+
+.item_last .over_item .name .text {
+  margin-left: 20px;
+}
+
+.item_last .over_item .arrow {
+  margin-right: 30px;
+  font-size: 20;
+  font-stretch: condensed;
+  transition: 300ms;
+}
+
+.support {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.support .name {
+  display: flex;
+  margin-left: 30px;
+}
+
+.support .name .image {
+  display: flex;
+  align-items: center;
+}
+
+.support .name .text {
+  margin-left: 20px;
+}
